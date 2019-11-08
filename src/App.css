@@ -47,6 +47,17 @@ h1 {
   padding: 5px;
   display: flex;
   flex-direction: column;
+  
+}
+
+.card-drag {
+  margin: 3vh auto;
+  border: 1px solid lightgray;
+  background-color:red;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -60,3 +71,4 @@ span {
 p {
   padding-left: 10px;
 }
+
