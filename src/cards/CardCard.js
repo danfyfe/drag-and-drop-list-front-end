@@ -2,11 +2,11 @@ import React from 'react'
 
 const CardCard = props => {
 
-    const { cardObj } = props 
+    const { cardObj, handleDragStart, cardId } = props 
     const { title, content } = cardObj 
 
     return(
-        <div draggable className='card'>
+        <div id={cardId} draggable className='card' onDragStart={ () => handleDragStart(cardObj, cardId)}>
             <span>{title}</span>
             <p>{content}</p>
         </div>

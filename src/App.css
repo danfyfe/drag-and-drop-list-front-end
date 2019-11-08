@@ -49,6 +49,10 @@ h1 {
   flex-direction: column;
 }
 
+.card:hover {
+  cursor: grab;
+}
+
 span {
   font-weight: bold;
 }
